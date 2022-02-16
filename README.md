@@ -103,6 +103,16 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/genbid007-ml/wafer
 git push -u origin main
+
+git branch dev
+git checkout dev
+git add .
+git push --set-upstream origin dev
+
+#origin is set to other it give error
+
+git remote set-url origin https://github.com/genbid007-ml/wafer
+git remote -v
 ```
 
 ## create a account at circle ci
